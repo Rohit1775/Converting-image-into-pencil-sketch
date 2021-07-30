@@ -1,6 +1,11 @@
+# First install cv2 into your terminal
+# (copy paste this line in your terminal for installing cv2)
+# pip install opencv-python
+
 import cv2
 
 # captian.jpg = file name (which you want to convert into sketch)
+
 image = cv2.imread("captian.jpg")
 
 grey_img = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
